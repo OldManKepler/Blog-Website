@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lovedtreasuredregardless</title>
+    
+    <style>
+        body{
+            background-image: url("Images/Tilewall2.png");
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header{
+            background-image: url("Images/CielingBoard.png");
+            color: rgb(86, 61, 61);
+            height: 96px;
+        }
+
+        section{
+            background: transparent;
+            padding: 20px; 
+        }
+
+        .container{
+            position: relative;
+            width: 192px;
+            margin: auto;
+        }
+
+        .container img{
+            width: 100%;
+            height: auto;
+
+        }
+
+        .container .btn{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background: transparent;
+            border: none;
+            width: 160px;
+            height: 75px;
+            padding: 20px;
+            font-family:'Courier New', Courier, monospace
+        }
+
+        .container .btn:hover{
+            cursor: grab;
+            background: green;
+
+        }
+
+        .plug{
+            position: relative;
+            width: 96px;
+        }
+
+        .plug img{
+            width: 100%;
+            height: auto;
+        }
+
+        .plug .btn{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            width: 88px;
+            height: 42px;
+
+
+
+            background: transparent;
+            border: none;
+            font-family:'Courier New', Courier, monospace
+        }
+
+        .plug .btn:hover{
+            cursor: grab;
+            background: green;
+        }
+
+        h1 {
+            padding: 30px;
+            margin: 0px;
+        }
+
+        ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 100px;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        footer{
+            background-image: url("Images/SkirtingBoard.png");
+            color: whitesmoke;
+            vertical-align: text-bottom;
+
+            height: 48px;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Loved Treasured Regardless</h1>      
+    </header>
+
+    <section>   
+        <ul>
+            <li class="container"> 
+                <img src="Images/Frame.png">
+                <button class="btn" onclick="window.location.href='Entries/Mon30Sep.html';">Monday 30th September</button>  
+            </li>
+            <li class="container">
+                <img src="Images/Frame.png">
+                <button class="btn" onclick="window.location.href='Entries/Tue1Oct.html';">Tuesday 1st October</button>  
+            </li>
+            <li class="container">
+                <img src="Images/Frame.png">
+                <button class="btn" onclick="window.location.href='Entries/Wed2Oct.html';">Wednesday 2nd October</button>
+            </li>
+            <li class="container">
+                <img src="Images/Frame.png">
+                <button class="btn" onclick="window.location.href='Entries/Thu3Oct.html';">Thursday 3rd October</button>
+            </li>
+            <li class="container">
+                <img src="Images/Frame.png">
+                <button class="btn" onclick="window.location.href='Entries/Fri4Oct.html';">Friday 4th October</button>
+            </li>
+            <li class="container">
+                <img src="Images/Frame.png">
+                <button class="btn" onclick="window.location.href='Entries/Sat5Oct.html';">Saturday 5th October</button>
+            </li>
+            <li class="container">
+                <img src="Images/Frame.png">
+                <button class="btn" onclick="window.location.href='Entries/Sun6Oct.html';">Sunday 6th October</button>
+            </li>
+        </ul>
+
+
+    </section>
+
+    <footer>
+        <li class="plug">
+            <img src="Images/PlugSocket.png">
+                <button class="btn" onclick="window.location.href='index.html';">Home</button>
+        </li>
+    </footer>
+</body>
+</html>

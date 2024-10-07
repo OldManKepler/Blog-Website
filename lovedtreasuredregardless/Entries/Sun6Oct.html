@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lovedtreasuredregardless</title>
+    
+    <style>
+        body{
+            background: white;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header{
+            background-image: url("../Images/CielingBoard.png");
+            color: rgb(86, 61, 61);
+            height: 96px;
+        }
+
+        section{
+            background-image: url("../Images/Tilewall2.png");
+            padding: 20px;           
+        }
+
+        h1{
+            padding: 30px;
+            margin: 0px;
+        }
+
+        .plug{
+            position: relative;
+            width: 96px;
+        }
+
+        .plug img{
+            width: 100%;
+            height: auto;
+        }
+
+        .plug .btn{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            width: 88px;
+            height: 42px;
+            background: transparent;
+            border: none;
+            font-family:'Courier New', Courier, monospace
+        }
+
+        .plug .btn:hover{
+            cursor: grab;
+            background: green;
+        }
+
+        ul{
+            list-style: none;
+            margin: 0px;
+            padding: 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        li{           
+            list-style: none;
+        }
+
+        footer{
+            background-image: url("../Images/SkirtingBoard.png");
+            color: whitesmoke;
+            vertical-align: text-bottom;
+            height: 48px;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>    
+        <h1>    
+            Loved Treasured Regardless
+        </h1>
+    </header>
+    <section>   
+        <h3>
+            Entry
+        </h3>
+
+        <ul>
+            
+                <video width="auto" height="300" controls>
+                    <source src="../Images/Sun6OctPerformance.mp4" alt="I want wind to blow performance" type="video/mp4">
+                </video>
+            <li><img src="../Images/Sun6OctPano.jpeg" alt="Panorama with Sam" width="auto" height="300"></li>
+            <li><img src="../Images/Sun6OctFlash.jpeg" alt="On vogue" width="auto" height="300"></li>
+            <li><img src="../Images/Sun6OctTwilight.jpeg" alt="Watching Twilight" width="auto" height="300"></li>
+            <li><img src="../Images/Sun6OctMarioCart.jpeg" alt="Mario Cart" width="auto" height="300"></li>
+            <li><img src="../Images/Sun6OctMeal.jpeg" alt="Harvester Meal" width="auto" height="300"></li>
+            <li>
+
+        </ul>
+        
+
+    </section>
+    <footer>
+        <li class="plug">
+            <img src="../Images/PlugSocket.png">
+                <button class="btn" onclick="window.location.href='../index.html';">Home</button>
+        </li>
+    </footer>
+</body>
+</html>
+

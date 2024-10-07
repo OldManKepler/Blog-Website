@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lovedtreasuredregardless</title>
+    
+    <style>
+        body{
+            background: white;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header{
+            background-image: url("../Images/CielingBoard.png");
+            color: rgb(86, 61, 61);
+            height: 96px;
+        }
+
+        section{
+            background-image: url("../Images/Tilewall2.png");
+            padding: 20px;           
+        }
+
+        h1{
+            padding: 30px;
+            margin: 0px;
+        }
+
+        ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .plug{
+            position: relative;
+            width: 96px;
+        }
+
+        .plug img{
+            width: 100%;
+            height: auto;
+        }
+
+        .plug .btn{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            width: 88px;
+            height: 42px;
+
+
+
+            background: transparent;
+            border: none;
+            font-family:'Courier New', Courier, monospace
+        }
+
+        .plug .btn:hover{
+            cursor: grab;
+            background: green;
+        }
+
+        ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        li{           
+            list-style: none;
+        }
+
+        footer{
+            background-image: url("../Images/SkirtingBoard.png");
+            color: whitesmoke;
+            vertical-align: text-bottom;
+            height: 48px;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>    
+        <h1>    
+            Loved Treasured Regardless
+        </h1>
+    </header>
+    <section>   
+        <h3>
+            Entry
+        </h3>
+        "What do you want to be when you go older?" <br>
+        "When I grow up I would like to be... an explorer. I would like to explore in the trees and climb as high as I could get. Maybe I'd find some dinosaur bones at the top of some trees." <br>
+        "Like Indiana Jones?" <br>
+        "No, not like Indiana Jones. Just like myself." <br>
+        "And who's that?" <br>
+        "Whoever you want it to be. Trying to keep it as vague as possible. This is too tricky."
+       
+
+    </section>
+    <footer>
+        <li class="plug">
+            <img src="../Images/PlugSocket.png">
+                <button class="btn" onclick="window.location.href='../index.html';">Home</button>
+        </li>
+    </footer>
+</body>
+</html>
