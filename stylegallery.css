@@ -1,0 +1,126 @@
+body{
+    background-image: url("Images/Tilewall2.png");
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url("Images/CielingBoard.png");
+    color: rgb(86, 61, 61);
+    height: 96px;
+    text-wrap: balance;
+}
+
+h1 {
+    padding: 30px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+section{
+    background: transparent;
+    padding: 20px; 
+    margin: 0px 0px 46px 0px;  
+}
+
+.pictures{
+    list-style: none;
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.frames{
+    position: relative;
+    width: 192px;
+    margin: auto;
+}
+
+.frames img{
+    width: 100%;
+    height: auto;
+
+}
+
+.frames .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: transparent;
+    border: none;
+    width: 160px;
+    height: 75px;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.frames .btn:hover{
+    cursor: grab;
+    background: green;
+}
+
+.wall{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 60px;
+    row-gap: 10px;
+}
+
+.plug{
+    position: relative;
+    width: 96px;
+}
+
+.plug img{
+    width: 100%;
+    height: auto;
+}
+
+.plug .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 88px;
+    height: 42px;
+
+
+
+    background: transparent;
+    border: none;
+    font-family:'Courier New', Courier, monospace
+}
+
+.plug .btn:hover{
+    cursor: grab;
+    background: green;
+}
+
+footer{
+    background-image: url("Images/SkirtingBoard.png");
+    color: whitesmoke;
+    vertical-align: text-bottom;
+    height: 48px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
